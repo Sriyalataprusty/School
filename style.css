@@ -1,0 +1,124 @@
+*{
+    font-family: 'Galada';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Galda';
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    background-color: rgba(114, 153, 160, 0.705);
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1px;
+    height: auto;
+    transition: 0.3s ease background color;
+ }
+.Brand h1{ 
+    color:transparent;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, rgb(37, 118, 150), rgb(7, 41, 92), #137faa, rgb(11, 41, 80));
+    background-clip: text;
+}
+
+.Brand h1 span{
+    color: transparent;
+    background: linear-gradient(90deg, rgb(37, 118, 150), rgb(7, 41, 92), #137faa, rgb(11, 41, 80));
+    background-clip: text;
+}
+
+.header nav ul{
+    display: flex;
+    padding: 0;
+    color: rgb(13, 152, 170);
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+    padding-right: 15px;
+    list-style-type: none;
+    
+}
+
+.header nav ul a{
+    color:rgb(219, 215, 217);
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    
+}
+
+.header nav ul a:hover{
+    color: #084a94;
+    font-size: 2rem;
+}
+
+#Home{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWFd1OrJtQn_qZ7TOzk9pTa4OMMROt64yfYA&s);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+#Home::after{
+    content:'' ;
+    z-index: -1;
+    background: rgba(56, 54, 58, 0.466);
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    position: absolute;
+}
+
+#Home h1{
+    color: rgba(228, 235, 224, 0.959);
+    font-size: 35px;
+}
+
+#Home h1 span{
+    color:transparent ;
+    background: linear-gradient(90deg, rgb(67, 126, 150), rgb(5, 38, 99), rgb(59, 133, 161), rgb(4, 32, 68));
+    background-clip: text;
+}
+
+#Home .button .CTA{
+    display: inline-block;
+    border: 3px solid  rgb(85, 150, 207);
+    font-size: 2.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: transparent;
+    padding: 5px 10px 5px 10px ;
+    margin-top: 2rem;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgb(54, 102, 121), rgb(10, 65, 148), rgb(66, 139, 168), rgb(9, 59, 167));
+    background-clip: text;
+}
+
+#Home .button .CTA:hover{
+    color: rgb(14, 106, 134);
+    background-color: rgb(7, 6, 6);
+}
+
+#Home .button .CTA:active{
+    transform: scaleX(90%) scaleY(70%) scaleZ(80%) ;
+}
