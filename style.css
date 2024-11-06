@@ -17,7 +17,7 @@ a{
 }
 
 header {
-    background-color: rgba(114, 153, 160, 0.705);
+    background-color: rgba(156, 203, 206, 0.37);
     position: fixed;
     width: 100vw;
     top: 0;
@@ -29,17 +29,26 @@ header {
     height: auto;
     transition: 0.3s ease background color;
  }
+
+ 
 .Brand h1{ 
     color:transparent;
     font-size: 3rem;
     text-transform: uppercase;
-    background: linear-gradient(90deg, rgb(37, 118, 150), rgb(7, 41, 92), #137faa, rgb(11, 41, 80));
+    background: linear-gradient(90deg, rgba(20, 83, 156, 0.678),  rgb(5, 52, 83), #052f6e, rgb(29, 87, 161));
     background-clip: text;
+    align-items: center;
+    justify-content: center;
+}
+.Brand h1{
+    border: 3px solid rgb(4, 65, 94);
+    padding: 5px 10px 5px 10px ;
+    border-radius: 10px;
 }
 
 .Brand h1 span{
     color: transparent;
-    background: linear-gradient(90deg, rgb(37, 118, 150), rgb(7, 41, 92), #137faa, rgb(11, 41, 80));
+    background: linear-gradient(90deg, rgb(42, 170, 221), rgb(8, 75, 161), #1b71c2, rgb(11, 41, 80));
     background-clip: text;
 }
 
@@ -54,7 +63,6 @@ header {
     list-style-type: none;
     
 }
-
 .header nav ul a{
     color:rgb(219, 215, 217);
     margin-left: 10px;
@@ -83,7 +91,7 @@ header {
 #Home::after{
     content:'' ;
     z-index: -1;
-    background: rgba(56, 54, 58, 0.466);
+    background: rgba(25, 26, 26, 0.466);
     height: 100vh;
     width: 100vw;
     margin: auto;
@@ -97,26 +105,27 @@ header {
 
 #Home h1 span{
     color:transparent ;
-    background: linear-gradient(90deg, rgb(67, 126, 150), rgb(5, 38, 99), rgb(59, 133, 161), rgb(4, 32, 68));
+    background: linear-gradient(90deg, rgba(15, 64, 121, 0.938), rgb(68, 113, 165), rgb(15, 69, 124), rgb(33, 73, 121));
     background-clip: text;
 }
 
 #Home .button .CTA{
     display: inline-block;
-    border: 3px solid  rgb(85, 150, 207);
+    border: 3px solid  rgb(40, 95, 131);
     font-size: 2.5rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: transparent;
     padding: 5px 10px 5px 10px ;
     margin-top: 2rem;
     border-radius: 10px;
-    background: linear-gradient(90deg, rgb(54, 102, 121), rgb(10, 65, 148), rgb(66, 139, 168), rgb(9, 59, 167));
+    background: linear-gradient(90deg, rgb(141, 168, 185), rgb(117, 156, 207), rgb(193, 196, 202), rgb(49, 117, 207));
     background-clip: text;
 }
 
 #Home .button .CTA:hover{
     color: rgb(14, 106, 134);
-    background-color: rgb(7, 6, 6);
+    background-color: rgb(57, 64, 70);
+    font-size: medium;
 }
 
 #Home .button .CTA:active{
