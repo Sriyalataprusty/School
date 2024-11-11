@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/webdevelopment/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form action="/form.html" method="get">
+         <fieldset>
+             <legend>Sign Up</legend>
+            <label for="FirstName" class="text-labels">first Name :</label>
+            <input type="text" id="FirstName" name="FirstName" placeholder="Enter Your First Name">
+            <label for="LastName" class="text-labels">Last Name :</label>
+            <input type="text" id="LastName" name="LastName" placeholder="Enter Your Last Name"><br><br>
+            <label for="Email" class="text-labels">Email :</label>
+            <input type="text" id="Email" name="Email" placeholder="Yourname@company.com"><br><br>
+            <label for="Password">Creat a Password :</label>
+            <input type="password" id="Password" name="password" placeholder="password"><br><br>
+            <label for="password">Confirm Password :</label>
+            <input type="password" id="password" name="password" placeholder="Confirm password"><br><br>
+            <label for="address">Enter Your Full address :</label><br><br>
+            <textarea name="address" id="address" name="adress" placeholder="Write your Full Address"></textarea><br><br>
+            <label for="wpnum" class="text-labels">Enter Your Whatsapp Number :</label>
+            <input type="tel" id="wpnum" name="wpnum" pattern="[10]{0-9}" placeholder="Whatsapp Number"><br><br>
+            <label for="DOB">Enter Your Date Of Birth :</label>
+            <input type="date" id="DOB" name="DOB"><br><br>
+            <label for="citizenship">What Is Your Nationality :</label>
+            <select name="Nationality" id="citizenship">
+             <option value="select" selected disabled>Select Your citizenship</option>
+                <option value="Indian">Indian</option>
+                <option value="Australlian">Australlian</option>
+                <option value="American">American</option>
+                <option value="Canadian">Canadian</option>
+                <option value="African">African</option>
+                <option value="Non-Pakisthani,non-chineese asian">Non-Pakisthani,Non-chineese asian</option>
+            </select><br><br>
+            <label for="Gender" class="text-labels" id="Gender" name="Gender">Select Your Gender :</label>
+            <input type="radio" id="male" name="Gender" value="male">
+            <label for="male">male</label>
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <label for="Female">Female</label>
+            <input type="radio" id="LGBTQ" name="Gender" value="LGBTQ">
+            <label for="LGBTQ">LGBTQ</label><br><br>
+            <label for="Subject" class="text-labels" id="Subject" name="Subject">Select Your 12th Subject :</label>
+            <input type="checkbox" id="Physics" name="Subject" value="Physics">
+            <label for="Physics">Physics</label>
+            <input type="checkbox" id="Chemistry" name="Subject" value="Chemistry">
+            <label for="Chemistry">Chemistry</label>
+            <input type="checkbox" id="Math" name="Subject" value="Math">
+            <label for="Math">Math</label>
+            <input type="checkbox" id="Biology" name="Subject" value="Biology">
+            <label for="Biology">Biology</label><br><br>
+            <label for="Age" class="text-labels">Age</label>
+            <input type="range" id="Age" name="Age"><br><br>
+            <label for="Passphoto"> Upload Your Passport Size Passphoto</label>
+            <input type="file" id="Passphoto" name="Passphoto"><br><br>
+            <button type="submit">Submit</button>
+            <button type="reset">reset</button>
+        </fieldset>
+    </form>
+</body>
+</html>
