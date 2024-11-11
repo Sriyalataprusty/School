@@ -1,0 +1,48 @@
+.text{
+    font-weight: bold;
+}
+
+#wpnum{
+    font-size: medium;
+}
+
+form{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/30/12/09/question-mark-1872634_640.jpg);
+    opacity:90%;
+    background-size: cover;
+    background-position:center ;
+}
+
+label, legend{
+    color: whitesmoke;
+    font-family: 'salsa';
+}
+
+body{
+   background-color: black;
+   opacity:90%;
+}
+
+::placeholder{
+    font-family: Salsa;
+    font-weight: 700;
+    font-style: oblique;
+}
+
+button{
+    font-weight: bold;
+    font-style: oblique;
+}
+
+#email{
+    font-size: 15px;
+    width: 231px;
+}
+
+label{
+    font-style: oblique;
+}
+
+select{
+    font-style: oblique;
+}
