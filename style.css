@@ -120,9 +120,9 @@ header {
 }
 
 #Home .button .CTA:hover{
-    color: rgb(146, 104, 165);
-    background-color: rgb(57, 64, 70);
-    font-size: medium;
+    color: white;
+    background-color: crimson;
+    font-size: 2.7rem;
 }
 
 #Home .button .CTA:active{
