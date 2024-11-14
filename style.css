@@ -30,8 +30,7 @@ header {
     transition: 0.3s ease background color;
  }
 
- 
-.Brand h1{ 
+ .Brand h1{ 
     color:crimson;
     font-size: 3rem;
     text-transform: uppercase;
@@ -89,7 +88,7 @@ header {
 #Home::after{
     content: '';
     z-index: -1;
-    background: rgb(0 , 0 , 0 ,0.7);
+    background: rgba(0 , 0 , 0 ,0.7);
     margin: auto;
     height: 100%;
     width: 100%;
@@ -120,11 +119,37 @@ header {
 }
 
 #Home .button .CTA:hover{
-    color: white;
+    color: black;
     background-color: crimson;
     font-size: 2.7rem;
 }
 
 #Home .button .CTA:active{
     transform: scaleX(90%) scaleY(70%) scaleZ(80%) ;
+}
+
+#Academic{
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+#Academic .Academic-Top{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+#Academic .Academic-Top h1{
+    font-size: 5rem;
+    color: crimson;
+    align-items: center;
+    justify-content: center;
+}
+#Academic .Academic-Top p{
+    font-size: 1.4rem;
+    margin-top: 5px;
+    letter-spacing: 0.05rem;
+    align-items: center;
 }
