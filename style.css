@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(12, 11, 11);
+}
+
 html{
     font-family: 'montserrat';
     font-size: 10px;
@@ -15,6 +19,7 @@ html{
 a{
     text-decoration: none;
 }
+
 
 header {
     background-color: rgba(0 , 0 , 0 , 0.24);
@@ -135,6 +140,7 @@ header {
     max-width: 1500px;
     margin: 0 auto;
     padding: 100px 0;
+    z-index: 1;
 }
 #Academic .Academic-Top{
     max-width: 500px;
