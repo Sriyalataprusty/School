@@ -134,28 +134,100 @@ header {
 }
 
 #Academic{
-    color: antiquewhite;
+    color: black;
     display: flex;
     flex-direction: column;
     max-width: 1500px;
     margin: 0 auto;
     padding: 100px 0;
     z-index: 1;
+    background-color: black;
+    
 }
 #Academic .Academic-Top{
     max-width: 500px;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 #Academic .Academic-Top h1{
-    font-size: 5rem;
-    color: crimson;
-    align-items: center;
-    justify-content: center;
+    font-size: 4rem;
+    color:transparent;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    background: linear-gradient(50deg, crimson , antiquewhite , crimson , antiquewhite , crimson , antiquewhite );
+    background-clip: text;
+}
+#Academic .Academic-Top h1 span{
+    color: antiquewhite;
 }
 #Academic .Academic-Top p{
     font-size: 1.4rem;
     margin-top: 5px;
     letter-spacing: 0.05rem;
+    text-align: center;
+    color: antiquewhite;
+}
+#Academic .Academic-bottom{
+    display: flex;
+    margin-top: 50px;
+    justify-content:center ;
     align-items: center;
+    flex-wrap: wrap;
+}
+#Academic .Academic-bottom .Academic-item{
+    flex-basis: 20%;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: crimson;
+    position: relative;
+    z-index: 1;
+    margin: 10px;
+    overflow: hidden;
+    opacity: 80%;
+    color: antiquewhite;
+    height: 9cm;
+    width: 5cm;
+
+}
+#Academic .Academic-bottom .Academic-item:hover{
+    font-size: larger;
+    opacity: 100%;
+    height: 10cm;
+    width: 6cm;
+
+}
+.Academic-item::after{
+    content: '';
+    z-index: -1;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    background: linear-gradient(50deg, #29323c 0%, #485563 100%);
+    left: 0%;
+}
+#Academic .Academic-bottom .Academic-item h1{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+#Academic .Academic-bottom .Academic-item p{
+    font-size: 1.4rem;
+    text-align: left;
+}
+#Academic .Academic-item .icon{
+    flex: 0 0 auto;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+
 }
